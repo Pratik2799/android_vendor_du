@@ -2,6 +2,7 @@
 PRODUCT_PACKAGES += \
     CustomDoze \
     Dialer \
+    Camera2 \
     WallpaperPicker \
     WeatherClient
 
