@@ -64,6 +64,11 @@ PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/etc/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml \
     vendor/du/prebuilt/common/etc/default-permissions/org.pixelexperience.weather.client.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml
 
+# Lawnchair
+PRODUCT_COPY_FILES += \
+    vendor/havoc/prebuilt/common/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
+    vendor/havoc/prebuilt/common/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
+
 # Packages
 include vendor/du/config/packages.mk
 
@@ -80,4 +85,5 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
     PRODUCT_PACKAGES += \
     WallpaperPickerGooglePrebuilt \
     Calculator \
-    DeskClock
+    DeskClock \
+    Lawnchair
