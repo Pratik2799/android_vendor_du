@@ -79,4 +79,5 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
 # DU Packages
     PRODUCT_PACKAGES += \
     WallpaperPickerGooglePrebuilt \
-    Calculator
+    Calculator \
+    DeskClock
